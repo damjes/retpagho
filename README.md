@@ -8,7 +8,16 @@ Retpaĝo de matma6
 Informacioj por programistoj
 ----------------------------
 
+- **Oficiala retpaĝo kun fonto:** http://gitlab.matma6.net/matma6/retpagho/
 - **Ĉefa lingvo:** Esperanto kun h-sistemo, do kutimiĝu :)
 - **Permesilo:** Esperanta traduko de M6PL, estas en `LICENSE.md`.
 - **Deŝovo:** Ni uzas TAB klavon, do kutimiĝu :)
 - **Kodoprezento:** Por kodo tio ne gravas, ĉar h-sistemo. En aliaj dosieroj UTF-8. Fakte, vi povas uzi UTF-8 por tuta kodaro.
+
+### Iloj
+- [SWI-Prolog](http://www.swi-prolog.org/) - retservilo
+- [plmake](https://github.com/cmungall/plmake) - make-simila sistemo
+- [CouchDB](http://couchdb.apache.org/) - datumbazo
+- [CouchDB-dump](https://github.com/danielebailo/couchdb-dump) - kopio de datumbazo
+- [Git](https://git-scm.com/) - versikontrola sistemo
+- [Git flow](http://nvie.com/posts/a-successful-git-branching-model/) - metodo de laborfluo en Git
