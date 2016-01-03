@@ -19,6 +19,7 @@ roboto plenigos tion kaj ni forĵetas tian spamon
 ** TODO sendu dosieroj
 ** TODO arbo da paĝoj
 ** TODO bulteno kun novaĵoj tra retpoŝto
+** TODO estu sekura kun call_cleanup familio
 * Partoj
 ** paĝo
 ** regpanelo
