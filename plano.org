@@ -1,0 +1,47 @@
+* Celoj [0/17]
+** TODO aperigi paĝojn
+** TODO novaĵoj
+** TODO loteca "ĉu vi scias"
+** TODO komentoj
+** TODO regpanelo por teksto aldonaĵo
+** TODO ensaluto por komentado
+** TODO ensaluto por regpanelo
+** TODO ŝarĝi novaj komentoj aŭtomate
+websocket
+** TODO helpi en traduko
+** TODO RSS/Atom?
+** TODO LetsEncrypt
+** TODO kontraŭspamilo en komentoj
+kaptilo kun malvideblaj kampoj: url kaj email
+roboto plenigos tion kaj ni forĵetas tian spamon
+** TODO pingback
+** TODO markoj
+** TODO sendu dosieroj
+** TODO arbo da paĝoj
+** TODO bulteno kun novaĵoj tra retpoŝto
+* Partoj
+** paĝo
+** regpanelo
+*** arbo
+*** tradukoj
+*** komentoj
+* Plano [0/1]
+** TODO koro
+*** rezulton
+**** oni ne povas ensaluti, ĉar regpanelo ne ekzistas
+**** paĝo aperas, sed por tion oni devas doni id
+*** plano [0/8]
+**** TODO kreu suban datumbankintervizaĝon
+**** TODO kreu supran datumbankintervizaĝon
+**** TODO kreu modelon
+**** TODO kreu kontrolilon
+**** TODO kreu helpan paĝon
+**** TODO kreu vidon
+**** TODO kreu helpan predikaton
+**** TODO elsendu PWP
+* Aro
+** oni ne povas pligrandigi paĝon
+** validigu
+*** HTML validigilo
+*** uzu ilojn por diri, ĉu paĝo estas bona
+** kaj kio, kiel mi ne havas ĝavaskripton?
