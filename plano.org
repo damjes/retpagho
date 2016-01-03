@@ -20,6 +20,8 @@ roboto plenigos tion kaj ni forĵetas tian spamon
 ** TODO arbo da paĝoj
 ** TODO bulteno kun novaĵoj tra retpoŝto
 ** TODO estu sekura kun call_cleanup familio
+** TODO 2FA kun TOTP
+** TODO QR bildkodoj
 * Partoj
 ** paĝo
 ** regpanelo
