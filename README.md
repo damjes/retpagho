@@ -16,8 +16,6 @@ Informacioj por programistoj
 
 ### Iloj
 - [SWI-Prolog](http://www.swi-prolog.org/) - retservilo
-- [plmake](https://github.com/cmungall/plmake) - make-simila sistemo
 - [CouchDB](http://couchdb.apache.org/) - datumbazo
-- [CouchDB-dump](https://github.com/danielebailo/couchdb-dump) - kopio de datumbazo
 - [Git](https://git-scm.com/) - versikontrola sistemo
 - [Git flow](http://nvie.com/posts/a-successful-git-branching-model/) - metodo de laborfluo en Git

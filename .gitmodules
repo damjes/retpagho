@@ -1,3 +1,0 @@
-[submodule "eksteraj_liverantoj/couchdb-dump"]
-	path = eksteraj_liverantoj/couchdb-dump
-	url = https://github.com/danielebailo/couchdb-dump.git
