@@ -8,11 +8,12 @@ Retpaĝo de matma6
 Informacioj por programistoj
 ----------------------------
 
-- **Oficiala retpaĝo kun fonto:** http://gitlab.matma6.net/matma6/retpagho/
+- **Oficiala retpaĝo kun fonto:** *dume* https://bitbucket.org/matma6/retpagho/.
 - **Ĉefa lingvo:** Esperanto kun h-sistemo, do kutimiĝu :)
 - **Permesilo:** Esperanta traduko de M6PL, estas en `LICENSE.md`.
 - **Deŝovo:** Ni uzas TAB klavon, do kutimiĝu :)
 - **Kodoprezento:** Por kodo tio ne gravas, ĉar h-sistemo. En aliaj dosieroj UTF-8. Fakte, vi povas uzi UTF-8 por tuta kodaro.
+- **Kondukreguloj:** Ni uzas [NCoC](https://github.com/domgetter/NCoC).
 
 ### Iloj
 - [SWI-Prolog](http://www.swi-prolog.org/) - retservilo
