@@ -2,6 +2,8 @@
 	"datumbazo": {
 		"uzanto": "",
 		"pasvorto": "",
+		"datumbazo": "dobo",
+		"protokolo": "http",
 		"gastiganto": "localhost",
 		"pordo": 5984,
 		"vojo": ""
