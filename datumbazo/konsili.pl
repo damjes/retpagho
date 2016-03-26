@@ -1,3 +1,3 @@
-:- [agordoj].
+:- [agordoj, http_fasado, savkopio].
 
-:- kreu_URLon(U), !, assertz(db_urlo(U)).
+:- rekreu_URLon.

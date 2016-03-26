@@ -23,4 +23,10 @@ kreu_URLon(URLo) :-
 		Ag.vojo,
 		"/",
 		Ag.datumbazo]),
-	foldl(string_concat, Cheno, '', URLo).
+	foldl(string_concat, Cheno, '/', URLo).
+
+rekreu_URLon :-
+	retractall(db_urlo(_)),
+	kreu_URLon(U), !,
+	assertz(db_urlo(U)).
+
