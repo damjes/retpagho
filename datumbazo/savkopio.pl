@@ -16,17 +16,20 @@ savu_db(Dosiernomo) :-
 			nl(Torento)),
 		close(Torento)).
 
-restauru_db(Dosiernomo, X) :-
+savu_db :-
+	savu_db('datumbazo.json').
+
+restauru_db(Dosiernomo) :-
 	writeln('Forigi malnovan datumbazon...'),
 	% tio povas fari eraron 404
 	demandu_datumbazon("", delete, [status_code(_)], _),
 	writeln('Krei novan datumbazon...'),
-	demandu_datumbazon("", put, [status_code(_)], _),
+	demandu_datumbazon("", put, [status_code(201)], _),
 	writeln('Enmeti dokumentojn en datumbazo...'),
 	demandu_datumbazon("_bulk_docs", post, [
 		post(
 			file(
 				"application/json",
 				Dosiernomo)),
-		status_code(_)], X),
+		status_code(201)], _),
 	writeln('Datumbazo restaŭrita').
