@@ -1,6 +1,6 @@
-**This document is in Esperanto language. This is the main language of a whole project. You can contact author for more information.**
+**This document is in Esperanto language. This is the main language of a whole project. You can contact author (matma6 at matma6 dot net) for more information.**
 
-**Tia dokumento estas en Esperanto lingvo. Tio estas ĉefa lingvo de la tuta projekto. Vi povas skribi al aŭtoro por pli da informacioj.**
+**Tia dokumento estas en Esperanto lingvo. Tio estas ĉefa lingvo de la tuta projekto. Vi povas skribi al aŭtoro (matma6 ĉe matma6 dot net) por pli da informacioj.**
 
 Retpaĝo de matma6
 =================
