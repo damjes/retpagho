@@ -1,4 +1,9 @@
 {
   "docs": [
+    {
+      "_id":"chefa",
+      "tipo":"pagho",
+      "titolo":"Ĉefa dokumento"
+    }
   ]
 }
