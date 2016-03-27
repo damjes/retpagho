@@ -6,5 +6,7 @@ demandu_datumbazon(Vojo, Metodo, Agordoj, JSON) :-
 	string_concat(URLo, Vojo, U),
 	setup_call_cleanup(
 		http_open(U, Torento, [method(Metodo) | Agordoj]),
-		json_read_dict(Torento, JSON, []),
+		(
+			set_stream(Torento, encoding(utf8)),
+			json_read_dict(Torento, JSON, [])),
 		close(Torento)).

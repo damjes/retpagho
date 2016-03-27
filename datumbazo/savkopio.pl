@@ -10,7 +10,7 @@ savu_db(Dosiernomo) :-
 	demandu_datumbazon("_all_docs?include_docs=true", get, [], Kruda),
 	priparu_savkopion(Kruda, Priparita),
 	setup_call_cleanup(
-		open(Dosiernomo, write, Torento, []),
+		open(Dosiernomo, write, Torento, [encoding(utf8)]),
 		(
 			json_write_dict(Torento, Priparita, [width(1)]),
 			nl(Torento)),
