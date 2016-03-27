@@ -33,3 +33,6 @@ restauru_db(Dosiernomo) :-
 				Dosiernomo)),
 		status_code(201)], _),
 	writeln('Datumbazo restaŭrita').
+
+restauru_db :-
+	restauru_db('datumbazo.json').

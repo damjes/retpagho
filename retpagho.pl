@@ -14,4 +14,4 @@ kompilu :-
 	writeln(' OK!').
 
 disponigu :-
-	restauru_db('datumbazo.json').
+	restauru_db.
