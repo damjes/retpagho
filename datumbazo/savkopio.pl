@@ -25,14 +25,14 @@ restauru_db(Dosiernomo) :-
 	demandu_datumbazon("", delete, [status_code(_)], _),
 	writeln('Krei novan datumbazon...'),
 	demandu_datumbazon("", put, [status_code(201)], _),
-	writeln('Enmeti dokumentojn en datumbazo...'),
+	writeln('OK!\nEnmeti dokumentojn en datumbazo...'),
 	demandu_datumbazon("_bulk_docs", post, [
 		post(
 			file(
 				"application/json",
 				Dosiernomo)),
 		status_code(201)], _),
-	writeln('Datumbazo restaŭrita').
+	writeln('OK!\nDatumbazo restaŭrita!').
 
 restauru_db :-
 	restauru_db('datumbazo.json').
