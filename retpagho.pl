@@ -8,7 +8,9 @@ rulu :-
 
 kompilu :-
 	write('Kompili programon...'),
+	set_prolog_flag(optimise, true),
 	qsave_program(retpagho, [
+		foreign(save),
 		goal(rulu),
 		stand_alone(true)]),
 	writeln(' OK!').
