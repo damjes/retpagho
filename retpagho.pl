@@ -1,3 +1,5 @@
+:- encoding(utf8).
+
 % UZU SWI-PROLOG >= 7
 % swipl -s retpagho [-t celo]
 
