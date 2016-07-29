@@ -3,9 +3,14 @@
 % UZU SWI-PROLOG >= 7
 % swipl -s retpagho [-t celo]
 
+:- ['aliaj/konsili.pl'].
 :- ['datumbazo/konsili.pl'].
+:- ['modelo/konsili.pl'].
+:- ['regilo/konsili.pl'].
+:- ['vidigilo/konsili.pl'].
 
 rulu :-
+	servo,
 	writeln('Retpaĝo rulas').
 
 kompilu :-

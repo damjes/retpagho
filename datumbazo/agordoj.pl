@@ -1,16 +1,8 @@
-:- [library(http/json)].
-
-legu_agordoj(Agordoj) :-
-	setup_call_cleanup(
-		open('agordoj.json', read, Fluo),
-		json_read_dict(Fluo, Agordoj),
-		close(Fluo)).
-
 prenu_uzantan_chenon(Ag, '') :-
 	Ag.uzanto = "".
 
 kreu_URLon(URLo) :-
-	legu_agordoj(Agordoj),
+	agordoj(Agordoj),
 	Ag = Agordoj.datumbazo,
 	prenu_uzantan_chenon(Ag, Uz),
 	reverse(Cheno, [

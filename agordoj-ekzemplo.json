@@ -7,5 +7,6 @@
 		"gastiganto": "localhost",
 		"pordo": 5984,
 		"vojo": ""
-	}
+	},
+	"pordo" : 5000
 }
