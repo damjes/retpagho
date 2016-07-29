@@ -19,3 +19,8 @@ kompilu :-
 
 disponigu :-
 	restauru_db.
+
+% eta helpo kun inotify
+ricevu_signalon(usr1) :- make.
+:- on_signal(usr1, _, ricevu_signalon).
+
